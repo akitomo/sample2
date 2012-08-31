@@ -26,11 +26,13 @@ public class DirCleanUp {
           root.deleteOnExit();
       }
     } else {
-      // ディレクトリは再帰
+      // 繝�繧｣繝ｬ繧ｯ繝医Μ縺ｯ蜀榊ｸｰ
       File[] list = root.listFiles();
       for ( int i = 0 ; i < list.length ; i++ ) {
         cleanUp( list[i] );
       }
     }
 	}
+  //
+  //
 }
